@@ -4,11 +4,12 @@ title = "# Все можно в Тае"
 theme = "kube"
 description = "Проект #всеможновтае для тех, кому Таиланд милее всех на свете"
 Paginate = 4
+disqusShortname = "vmvt"
+
 [Params]
   RSSLink = "/index.xml"
   author = "команда #всеможновтае"
   email = "team@vmvt.club"
-  DisqusShortname = "vmvt"
 
 [[menu.main]]
     name = "Блог"

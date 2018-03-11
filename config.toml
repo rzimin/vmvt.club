@@ -8,6 +8,7 @@ Paginate = 4
   RSSLink = "/index.xml"
   author = "команда #всеможновтае"
   email = "team@vmvt.club"
+  DisqusShortname = "vmvt"
 
 [[menu.main]]
     name = "Блог"

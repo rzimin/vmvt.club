@@ -20,6 +20,20 @@
 	</div>
 	<figcaption>Анонс 4 сезона #всеможновтае</figcaption>
   </figure>  
+  
+  <div id="components">
+  <h2>Последнее из нашего блога</h2>
+    <div class="row gutters">
+      {{ range where .Data.Pages "Section" "blog"}}
+      <div class="col col-4 item">
+        <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        <p>{{ .Params.description }}</p>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+  
   <div id="kube-features">
     <div class="row gutters">
       <div class="col col-4 item">
